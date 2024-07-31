@@ -7,9 +7,9 @@ export function PageHeader() {
                 <Menu />
             </button>
             <a href="/">
-            <img src={logo} className="h-1 w-1 " alt="Logo" />
+            <img src={logo} className="h-1 w-1" alt="Logo" />
             </a>
-
+        
         </div>
         <div></div>
         <div></div>
