@@ -21,7 +21,7 @@ const buttonStyles = cva(["hover:bg-secondary-hover", "transition-colors"], {
     }
 })
 
-const classes = buttonStyles({ size: "icon" })
+
 
 export function Button () {
     return <Button />
