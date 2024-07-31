@@ -3,8 +3,8 @@ import { cva } from "class-variance-authority"
 const buttonStyles = cva(["hover:bg-secondary-hover", "transition-colors"], {
     variants:{
         variant: {
-            default: ["bg-secondary"],
-            ghost: []
+            default: ["bg-secondary", "hover:bg-secondary-hover"],
+            ghost: ["hover:bg-gray-100"]
         },
         size: {
             default: ["rounded", "p-2"],
