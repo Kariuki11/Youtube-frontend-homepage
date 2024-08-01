@@ -1,4 +1,4 @@
-import { Bell, Menu, Mic, Upload, User } from "lucide-react"
+import { Bell, Menu, Mic, Search, Upload, User } from "lucide-react"
 import logo from "../assets/Logo.jpg"
 import { Button } from "../components/Button"
 export function PageHeader() {
@@ -13,8 +13,11 @@ export function PageHeader() {
         
         </div>
         <form className="flex gap-4 flex-grow justify-center">
-            <div>
-
+            <div className="flex flex-grow max-w[600px]">
+                <input type="search" placeholder="Search" className="rounded-1-full border border-secondary-border shadow-inner shadow-secondary py-1 px-4 text-lg w-full" />
+                <Button>
+                    <Search />
+                </Button>
             </div>
             <Button type="button" size="icon" className="flex-shrink-0">
                 <Mic />
