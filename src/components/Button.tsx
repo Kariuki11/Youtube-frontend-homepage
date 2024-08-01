@@ -18,6 +18,10 @@ const buttonStyles = cva(["hover:bg-secondary-hover", "transition-colors"], {
                 "p-2.5"
             ]
         }
+    },
+    defaultVariants: {
+        variant: "default",
+        size: "default"
     }
 })
 
